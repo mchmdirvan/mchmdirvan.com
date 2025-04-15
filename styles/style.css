@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
+
 * {
   font-family: "Quicksand", sans-serif;
+  background-color: #ffffff;
   padding: 0;
   margin: 0;
 }
@@ -33,4 +35,11 @@ header {
 
 nav ul li a {
   color: #1f2937;
+}
+
+/* Main */
+main {
+  padding: 0rem 20rem;
+  background-color: aqua;
+  display: flex;
 }
