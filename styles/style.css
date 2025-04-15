@@ -6,17 +6,31 @@
   margin: 0;
 }
 
+h1 {
+  font-size: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
-  padding: 0rem 2rem;
-  border: dashed red;
+  padding: 1rem 15rem;
+  border-bottom: dashed #e8e4ec;
 }
 
-h1 {
-}
-
-.navbar-list {
+.navigation {
   display: flex;
   gap: 2rem;
+}
+
+nav ul li a {
+  color: #1f2937;
 }
