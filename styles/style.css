@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-
 * {
-  font-family: "Quicksand", sans-serif;
   background-color: #ffffff;
-  padding: 0;
+  font-family: "Quicksand", sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1 {
@@ -18,14 +23,15 @@ li {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 /* Header */
 header {
+  border-bottom: dashed #e8e4ec;
   display: flex;
   justify-content: space-between;
   padding: 1rem 15rem;
-  border-bottom: dashed #e8e4ec;
 }
 
 .navigation {
@@ -40,6 +46,26 @@ nav ul li a {
 /* Main */
 main {
   padding: 0rem 20rem;
-  background-color: aqua;
   display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+/* Title Section */
+.section-title {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.highlight-text {
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-color: bisque;
+  text-decoration-thickness: 0.2rem;
 }
