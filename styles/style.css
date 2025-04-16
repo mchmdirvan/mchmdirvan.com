@@ -69,3 +69,17 @@ main {
   text-decoration-color: bisque;
   text-decoration-thickness: 0.2rem;
 }
+
+/* Icon Button */
+.section-title ul {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0rem;
+}
+
+.section-title li {
+  border: dashed;
+  padding: 0.2rem 1rem;
+  border-radius: 0.4rem;
+  border-color: #202937;
+}
