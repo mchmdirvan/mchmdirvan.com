@@ -4,33 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hi, I'm Irvan</title>
-    <link rel="stylesheet" href="/styles/style.css" />
+    <!-- <link rel="stylesheet" href="/styles/style.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Quicksand";
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <header>
-      <h1>mchmdirvan.com</h1>
-      <nav>
-        <ul class="navigation">
-          <li class="navigation-list">
+  <body class="min-h-screen flex flex-col">
+    <header class="">
+      <h1 class="text-neutral-600">mchmdirvan.com</h1>
+      <nav class="h-full">
+        <ul class="flex flex-row gap-5 h-full items-center">
+          <li class="flex hover:bg-blue-300 h-full items-center px-4">
             <a href="">Home</a>
           </li>
-          <li>
+          <li class="flex hover:bg-blue-300 h-full items-center px-4">
             <a href="">Blog</a>
           </li>
-          <li>
+          <li class="flex hover:bg-blue-300 h-full items-center px-4">
             <a href="">Project</a>
           </li>
-          <li>
+          <li class="flex hover:bg-blue-300 h-full items-center px-4">
             <a href="">Story</a>
           </li>
-          <li>
+          <li class="flex hover:bg-blue-300 h-full items-center px-4">
             <a href="">About</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main class="flex-grow mx-auto container py-32 bg-red-200 justify-center">
       <section>
         <h2>Hello, I'm Mochamad Irvan 👋🏻</h2>
         <p>
