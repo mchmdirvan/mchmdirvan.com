@@ -3,43 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hi, I'm Irvan</title>
-    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Hi, I'm Mochamad Irvan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Quicksand";
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <header>
-      <h1>mchmdirvan.com</h1>
-      <nav>
-        <ul class="navigation">
-          <li class="navigation-list">
+  <body class="flex flex-col min-h-[100vh]">
+    <header
+      class="flex justify-between py-5 lg:px-60 p-5 border-b border-dashed border-[#9a9a9a]"
+    >
+      <h1><a href="/">mchmdirvan.com</a></h1>
+      <nav class="hidden md:block">
+        <ul class="flex gap-5">
+          <li
+            class="hover:bg-yellow-200 px-5 py-1 transition-colors duration-500 rounded-2xl"
+          >
             <a href="/index.html">Home</a>
           </li>
-          <li>
+          <li
+            class="hover:bg-yellow-200 px-5 py-1 transition-colors duration-500 rounded-2xl"
+          >
             <a href="/pages/project/">Project</a>
           </li>
-          <li>
+          <li
+            class="hover:bg-yellow-200 px-5 py-1 transition-colors duration-500 rounded-2xl"
+          >
             <a href="/pages/about/">About</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section>
-        <h2>project</h2>
-        <p>
+    <main class="p-10 lg:px-72">
+      <section class="space-y-2">
+        <h2 class="font-bold text-3xl text-[#1f2937]">projects</h2>
+        <p class="text-neutral-600">
           Thank you for visiting my projects. If you are interested in
           collaborating with me, please feel free to reach out through the
           contact information on the About page.
         </p>
       </section>
-      <section>
-        <div>
-          <img src="" alt="" />
-          <h3>KEPK Thamrin</h3>
-          <p>Created at March 2025</p>
-          <p>KEPK Thamrin is an app to guide</p>
-        </div>
+
+      <section class="py-10">
+        <ul>
+          <li
+            class="border p-2 rounded-xl border-dashed flex flex-col gap-2 items-center"
+          >
+            <img
+              src="/assets/images/kepk.png"
+              class="w-[220px] rounded-xl"
+              alt=""
+            />
+            <div class="space-y-1 mx-2">
+              <h3 class="font-bold">KEPK Thamrin</h3>
+              <p class="text-xs text-neutral-600">Created at March 2025</p>
+              <p class="text-xs text-neutral-600 mt-1">
+                KEPK Thamrin is an app to guide
+              </p>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
 
