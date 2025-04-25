@@ -4,56 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hi, I'm Mochamad Irvan</title>
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Quicksand";
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <header>
-      <h1>mchmdirvan.com</h1>
-      <nav>
-        <ul class="navigation">
-          <li class="navigation-list">
+  <body class="flex flex-col min-h-[100vh]">
+    <header
+      class="flex justify-between py-5 lg:px-60 p-5 border-b border-dashed border-[#9a9a9a]"
+    >
+      <h1><a href="/">mchmdirvan.com</a></h1>
+      <nav class="hidden md:block">
+        <ul class="flex gap-5">
+          <li
+            class="hover:bg-yellow-200 px-5 py-1 transition-colors duration-500 rounded-2xl"
+          >
             <a href="/index.html">Home</a>
           </li>
-          <li>
+          <li
+            class="hover:bg-yellow-200 px-5 py-1 transition-colors duration-500 rounded-2xl"
+          >
             <a href="/pages/project/">Project</a>
           </li>
-          <li>
+          <li
+            class="hover:bg-yellow-200 px-5 py-1 transition-colors duration-500 rounded-2xl"
+          >
             <a href="/pages/about/">About</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main class="home-main">
-      <section class="section-title">
-        <h2 class="title">Hello, I'm Mochamad Irvan 👋🏻</h2>
-        <p>
+    <main class="flex grow justify-center items-center p-10 lg:px-72">
+      <section class="space-y-5">
+        <h2 class="text-4xl md:text-5xl font-bold text-[#1f2937]">
+          Hello, I'm Mochamad Irvan 👋🏻
+        </h2>
+        <p class="text-[#1f2937]">
           You can call me Irvan, I'm Web Developer Entusiast. I'm Currently
-          working as a <span class="highlight-text"> IT Staff </span> at
-          <span class="highlight-text">
-            <a href="https://thamrin.ac.id/">MH Thamrin University</a>
+          working as a
+          <span class="underline decoration-yellow-300 font-bold decoration-4">
+            IT Staff - Fullstack Developer
+          </span>
+          at
+          <span class="underline decoration-yellow-300 font-bold decoration-4">
+            <a href="https://thamrin.ac.id/"
+              >Mohammad Husni Thamrin University</a
+            >
           </span>
         </p>
 
-        <ul>
-          <li>
-            <a href="https://github.com/mchmdirvan" class="button-style">
-              <i data-lucide="github" class="icon"></i>
+        <ul class="flex gap-3">
+          <li
+            class="border p-2 border-dashed rounded-lg hover:bg-neutral-200 transition-colors duration-500"
+          >
+            <a href="https://github.com/mchmdirvan">
+              <i data-lucide="github"></i>
             </a>
           </li>
-          <li>
+          <li
+            class="border p-2 border-dashed rounded-lg hover:bg-neutral-200 transition-colors duration-500"
+          >
             <a href="https://www.linkedin.com/in/mchmdirvan/">
-              <i data-lucide="Linkedin" class="icon"></i>
+              <i data-lucide="Linkedin"></i>
             </a>
           </li>
-          <li>
+          <li
+            class="border p-2 border-dashed rounded-lg hover:bg-neutral-200 transition-colors duration-500"
+          >
             <a href="/docs/CV.pdf" target="_blank" rel="noopener noreferrer">
-              <i data-lucide="File" class="icon"></i>
+              <i data-lucide="File"></i>
             </a>
           </li>
         </ul>
 
-        <a href="https://www.linkedin.com/in/mchmdirvan/" class="highlight-text"
+        <a
+          class="underline decoration-yellow-300 font-bold decoration-4"
+          href="https://www.linkedin.com/in/mchmdirvan/"
           >More About me!</a
         >
       </section>
