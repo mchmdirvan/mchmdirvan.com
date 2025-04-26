@@ -3,7 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Hi, I'm Mochamad Irvan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Quicksand";
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body></body>
+  <body class="flex flex-col min-h-[100vh]">
+    <header
+      class="flex justify-between border-b border-dashed border-[#9a9a9a] lg:px-60 p-5 md:py-0"
+    >
+      <h1 class="self-center">
+        <a href="/">mchmdirvan.com</a>
+      </h1>
+      <nav class="hidden md:block">
+        <ul class="flex gap-5">
+          <li
+            class="hover:bg-yellow-200 px-5 py-5 transition-colors duration-500"
+          >
+            <a href="/">Home</a>
+          </li>
+          <li
+            class="hover:bg-yellow-200 px-5 py-5 transition-colors duration-500"
+          >
+            <a href="/pages/project/">Project</a>
+          </li>
+          <li
+            class="hover:bg-yellow-200 px-5 py-5 transition-colors duration-500"
+          >
+            <a href="/pages/about/">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main></main>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
 </html>
