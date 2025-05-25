@@ -1,4 +1,4 @@
-# mchmdirvan.com | Personal Website of Mochamad Irvan
+# 🌐 mchmdirvan.com | Personal Website of Mochamad Irvan
 
 ![header](assets/images/header.png)
 
@@ -8,17 +8,17 @@ This repository contains a personal website project to show my profile, experien
 
 ---
 
-## Author
+## 👤 Author
 
 **Mochamad Irvan**
 
-- Inspired by: [fanzru.dev](https://fanzru.dev)
-- Website: [mchmdirvan.com](https://www.mchmdirvan.vercel.app)
-- Repository: <https://github.com/mchmdirvan/personal-website>
+- 💡 Inspired by: [fanzru.dev](https://fanzru.dev)
+- 🌍 Website: [mchmdirvan.com](https://www.mchmdirvan.vercel.app)
+- 📦 Repository: <https://github.com/mchmdirvan/personal-website>
 
 ---
 
-## Built with
+## 🛠️ Built with
 
 - HTML
 - TailwindCSS
